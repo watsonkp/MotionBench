@@ -11,6 +11,9 @@
 		0A50F8E426D3C53400B34186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50F8E326D3C53400B34186 /* ContentView.swift */; };
 		0A50F8E626D3C53700B34186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A50F8E526D3C53700B34186 /* Assets.xcassets */; };
 		0A50F8E926D3C53700B34186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A50F8E826D3C53700B34186 /* Preview Assets.xcassets */; };
+		0A50F8F126D4181E00B34186 /* MotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50F8F026D4181E00B34186 /* MotionController.swift */; };
+		0A50F8F326E51CD800B34186 /* MotionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50F8F226E51CD700B34186 /* MotionFile.swift */; };
+		0A50F8F526E6B50B00B34186 /* AccelerationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50F8F426E6B50B00B34186 /* AccelerationFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		0A50F8E526D3C53700B34186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A50F8E826D3C53700B34186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A50F8EA26D3C53700B34186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A50F8F026D4181E00B34186 /* MotionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionController.swift; sourceTree = "<group>"; };
+		0A50F8F226E51CD700B34186 /* MotionFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionFile.swift; sourceTree = "<group>"; };
+		0A50F8F426E6B50B00B34186 /* AccelerationFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerationFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				0A50F8E126D3C53400B34186 /* MotionApp.swift */,
+				0A50F8F026D4181E00B34186 /* MotionController.swift */,
 				0A50F8E326D3C53400B34186 /* ContentView.swift */,
+				0A50F8F226E51CD700B34186 /* MotionFile.swift */,
+				0A50F8F426E6B50B00B34186 /* AccelerationFile.swift */,
 				0A50F8E526D3C53700B34186 /* Assets.xcassets */,
 				0A50F8EA26D3C53700B34186 /* Info.plist */,
 				0A50F8E726D3C53700B34186 /* Preview Content */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A50F8E426D3C53400B34186 /* ContentView.swift in Sources */,
+				0A50F8F326E51CD800B34186 /* MotionFile.swift in Sources */,
+				0A50F8F526E6B50B00B34186 /* AccelerationFile.swift in Sources */,
+				0A50F8F126D4181E00B34186 /* MotionController.swift in Sources */,
 				0A50F8E226D3C53400B34186 /* MotionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
